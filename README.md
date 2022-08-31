@@ -1,4 +1,4 @@
 # TC_calculation
 AM alloys thermal conductivity (TC) dataset is created by measuring the TC of various alloys using Netzsch LFA 467 HT HyperFlash®- light flash apparatus.
-At first, machine learning models with default parameters are trained with the datset. The code is  The optimal model machine learning model is selected based on the statistical metrices. The optimal model is futher tuned up using GRID search method.
-The final model is also tested with the ICONEL 718 AM alloys. The dataset of ICONEL 718 alloy is provided in dataset file new_steel.csv
+At first, machine learning models with default parameters are trained with the datset and the optimal model machine learning model is selected based on the statistical metrices. The optimal model is futher tuned up using GRID search method.The overall code is located inside tc_all_model+hypertunning_github.py file
+The final otimal model is also tested with the ICONEL 718 AM alloys and good aggrement between machine learning model and experiments. The code is inside tc_final_model_git.py file. The important feature rank with the help of SHAP method. The feature important calculation code lies inside feature_thermal_con_github.py file.
